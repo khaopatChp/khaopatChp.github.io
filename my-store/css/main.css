@@ -2,6 +2,18 @@
 .section-title {
   font-size: 32px;
   font-weight: 600;
+  margin-bottom: 24px;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.section-title{
+  margin-bottom: 24px;
+}
+.section{
+  margin-bottom: 64px;
 }
 
 /*---- Menu ----*/
@@ -16,6 +28,10 @@ body {
   background-image: url('../images/hero-background.jpg'); /* Photo by Nicholas Kampouris on Unsplash */
   background-size: cover;
   background-position: center center;
+  margin-bottom: 24px;
+  height: 720px;
+  padding-top: 128px;
+  
 }
 .hero-title {
   font-size: 64px;
@@ -26,10 +42,15 @@ body {
 .collection-item {
   background-size: cover;
   background-position: 50% 82%;
+  padding: 24px;
+  border-radius: 8px;
 }
 .collection-item-title{
   font-size: 20px;
   font-weight: 600;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .collection-item-one {
@@ -64,6 +85,25 @@ body {
 .product-item-title {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+.product-item{
+  margin-bottom: 16px;
+}
+.product-item-image{
+  width: calc(100% / 3);
+  margin-bottom: 16px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 18px;
+  margin-bottom: 12px;
+}
+.price{
+  width: calc(100% / 3);
+  margin-bottom: 16px;
+  margin-top: 24px;
 }
 
 /*---- About Section ----*/
