@@ -1,0 +1,64 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    padding: 24px;
+}
+/*---- Navbar ----*/
+.nav{
+    height: 64px;
+}
+
+ul {
+    list-style-type: none;
+  }
+/*---- Jumbotron ----*/
+.about{
+    margin-bottom: 32px;
+}
+.img{
+    padding: 32px 24px 32px 0px;
+}
+
+/*---- Intro ----*/
+.Intro{
+    padding: 0px;
+    margin-bottom: 32px;
+}
+.img-intro{
+    width: auto;
+}
+/*---- Start learning ----*/
+.Start-learning{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.stsrt-learn{
+    margin-bottom: 32px;
+}
+.row-card .row{
+    margin-bottom: 32px;
+}
+.card-img-top{
+    width: auto;
+}
+.card-body{
+    margin-bottom: 24px;
+}
+.row-card .row{
+    margin-bottom: 32px;
+}
+/*---- Thesis exhibit ----*/
+.img-thesis{
+    width: auto;
+}
+.thesis-top{
+    background-color: #d8d8d8;
+}
+.subthesis .row{
+    padding: 16px 24px 16px 16px;
+}
+/*---- footer ----*/
+.terms{
+    margin-right: 16px;
+}
