@@ -28,6 +28,9 @@ ul {
 .img-intro{
     width: auto;
 }
+.intro-col{
+    margin: 0px 24px 16px 0px;
+}
 /*---- Start learning ----*/
 .Start-learning{
     margin-top: 32px;
