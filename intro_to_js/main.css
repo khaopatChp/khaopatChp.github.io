@@ -1,4 +1,28 @@
+
 .hearder{
     display: flex;
     justify-content: center;
+} 
+.bubbly-button{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #89CFEF;
+    color: $button-text-color;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

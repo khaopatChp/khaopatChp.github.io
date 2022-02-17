@@ -10,5 +10,5 @@ function askMyName() {
  
  function helloWorld() {
     const h1message = document.getElementById("stater").innerHTML; // ใช้คำสั่ง document.getElementById เหมือนใน askMyName เพื่อเอาข้อความใน h1 มาใส่
-    alert(h1message + ' เลิกกับพี่ได้ดีทุกคน');
+    alert(h1message + ' ชีวิตตอนนี้คือเหนื่อยมากๆ แต่ไม่อยากได้กำลังใจนะ อยากได้เงิน');
  }
