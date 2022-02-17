@@ -13,7 +13,7 @@
     -webkit-appearance: none;
     appearance: none;
     background-color: #89CFEF;
-    color: $button-text-color;
+    color: black;
     border-radius: 4px;
     border: none;
     cursor: pointer;
