@@ -1,334 +1,330 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <meta name="description" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-    <title>Colmar-academy</title>
-    <style>
-      .d-flex{
-          display: flex;
-      }
-      .d-none{
-          display: none;
-      }
-      .d-block{
-          display: block;
-      }
-      @media screen and (min-width: 600px){
-          .d-md-none{
-              display: none;
-          }
-          .d-md-block{
-              display: block;
-          }
-      }
-      @media screen and (max-width: 600px){
-          .d-block{
-              display: block;
-          }
-          .d-none{
-              display: none;
-          }
-      }
-      .container{
-          width: 100%;
-      }
-      .row{
-          display: flex;
-          padding: 0px 0px 0px 24px;
-      }
-      .justify-content-center{
-          justify-content: center;
-      }
-      .justify-content-between{
-          justify-content: space-between;
-      }
-      .align-items-center{
-          align-items: center;
-      }
-      .m-10{
-          margin: 10px;
-      }
-      .mx-10{
-          margin: 0 10px;
-      }
-      .mx-auto{
-          margin: 0 auto;
-      }
-      .m-10{
-          margin: 10px;
-      }
-      .my-10{
-          margin: 10px 0;
-      }
-      .my-auto{
-          margin: auto 0;
-      }
-      .p-10{
-          padding: 10px;
-      }
-      .px-10{
-          padding: 0 10px;
-      }
-      .px-auto{
-          padding: 0 auto;
-      }
-      .p-10{
-          padding: 10px;
-      }
-      .py-10{
-          padding: 10px 0;
-      }
-      .py-auto{
-          padding: auto 0;
-      }
-  </style>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="menu d-none d-md-block">
-      <div class="container">
-          <div class="nav row justify-content-between align-items-center">
-              <div class="col-6">
-                <img src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg" alt="logo" height="36">
-                <a ><span class=" navbar-brand mb-0 h1">COLMARACADEMY</span></a>
-              </div>
-              <div class="col-6">
-                  <ul class="d-flex justify-content-center align-items-center">
-                      <li class="mx-10">
-                        On campus
-                      </li>
-                      <li class="mx-10">Online or companies</li>
-                      <li class="mx-10">Sign in</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-  </nav>
-  <nav class="toggle-nav d-block d-md-none">
-      <div class="container">
-          <div class="row justify-content-center align-items-center">
-              <div class="col-3 mx-10"> <img src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg" alt="logo" height="36"></div>
-              <div class="col-3 mx-10"><img src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/ic-on-campus.svg" alt="campus" height="36"></div>
-              <div class="col-3 mx-10"><img src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/ic-online.svg" alt="Online" height="36"></div>
-              <div class="col-3 mx-10"><img src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/ic-login.svg" alt="ic-login" height="36"></div>
-          </div>
-      </div>
-  </nav>
-</body>
-    <!-- Jumbotron -->
-    <div id="gotoabout" class="about container-fluid">
-        <div class="row bg-light align-items-center">
-                <div class="col-md-6"><img class="img d-block w-100" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg" alt="banner" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <div class="jumbotron">
-                        <h1 class="display-12">Lean something</h1>
-                        <h1 class="display-12">new everyday</h1>
-                        <br>
-                        <h4>Lorem ipsum dolor sit amet,consectetur adipiscing elit</h4>
-                        <br>
-                        <p class="lead">
-                        <a class="btn btn-dark btn-lg" href="#" role="button">Learn more</a>
-                        </p>
-                    </div>
-                </div>
-        </div>
-    </div>
-    <!-- Intro -->
-    <div class="Intro container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="row">
-                <div class="Intro col-md-7">
-                    <div class="col"><img class="img d-block w-100" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg" alt="infor-main" class="img-fluid"></div>
-                    <!-- Force next columns to break to new line -->
-                    <div class="w-100"></div>
-                    <div class="intro-col col">
-                        <h1 class="display-12">It doesn't hurt to keep practicing</h1>
-                        <br>
-                        <p>"Curabitur vitae libero in ipsum porttītor consequat, Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor .consequat, tristique ligula."</p>
-                        <p>Emanuel, Sr Strategist at Hiring.com</p>
-                    </div><br></div>
-                <div class="col-md-5">
-                    <div class="col intro-col">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <img class="img-intro d-block w-100" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/information-orientation.jpg" alt="infor-or" class="img-fluid">
-                            </div>
-                            <div class="col">
-                                <h4 class="display-12">Orientation date</h4>
-                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                                <a class="nav-link active" aria-current="page">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col intro-col">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <img class="img-intro d-block w-100" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/information-campus.jpg" alt="infor-campus" class="img-fluid">
-                            </div>
-                            <div class="col">
-                                <h4 class="display-12">Our campus</h4>
-                                <p>Find which campus is close by you</p>
-                                <a class="nav-link active" aria-current="page">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col intro-col">
-                        <div class="row align-items-center">
-                            <div class="col-8 col-sm-6">
-                                <img class="img-intro d-block w-100" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture.jpg" alt="infor-guest" class="img-fluid">
-                            </div>
-                            <div class="col-4 col-sm-6">
-                                <h4 class="display-12">Our guest lecture</h4>
-                                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                                <a class="nav-link active" aria-current="page">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                <br></div>
-              </div>
-        </div>
-    </div>
-    <!-- Start learning -->
-    <div class="Start-learning container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="card-col col-6 col-sm-3"><h1 class="stsrt-learn">Start learning</h1></div>
-        </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-6 col-sm-3">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/course-software.jpg" alt="course-software">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-col col-6 col-sm-3">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/course-computer-art.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-col col-6 col-sm-3">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/course-design.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row-card row justify-content-center align-items-center">
-            <div class="col-6 col-sm-3">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/course-data.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-sm-3">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/course-business.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-sm-3">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/course-marketing.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-    </div>
-    <!-- Thesis exhibit -->
-    <div class="Intro container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="card-col col-6 col-sm-3"><h1 class="stsrt-learn">Thesis exhibit</h1></div>
-        </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="row">
-                <div class="Intro col-md-6">
-                    <div class="col"><video class="img-fluid">
-                        <source src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/videos/thesis.mp4" type="video/mp4" >
-                      </video></div>
-                    <div class="w-100"></div>
-                    <div class="col">
-                        <h1 class="display-12">Reimagine urban</h1>
-                        <br>
-                        <p>"Curabitur vitae libero in ipsum porttītor consequat, Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor .consequat, tristique ligula."</p>
-                    </div><br></div>
-                <div class="col-md-6">
-                    <div class="col">
-                        <div class="thesis-top">
-                        <div class="subthsis row align-items-center">
-                            <div class="col-8 col-sm-6">
-                                <img class="img-thesis d-block w-100" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/thesis-fisma.jpg" alt="thesis-fisma">
-                            </div>
-                            <div class="col-4 col-sm-6">
-                                <h4 class="display-12">Fisma: Design and Prototype</h4>
-                                <p>Designer showcase of new prototype product</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col">
-                        <div class="thesis-bom">
-                        <div class="row align-items-center">
-                            <div class="col-8 col-sm-6">
-                                <img class="img-thesis d-block w-100" src="../colmar-academy/capstone_colmar_assets/capstone_colmar_assets/images/thesis-now-and-then.jpg" alt="thesis-now-and-then" class="img-fluid">
-                            </div>
-                            <div class="col-4 col-sm-6">
-                                <h4 class="display-12">Now and then</h4>
-                                <p>Research study about New York</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="w-100"></div>
-                <br></div>
-              </div>
-        </div>
-    </div>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@100;400;600&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>COLMAR ACADEMY</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <!-- footer -->
-    <footer class="container-fluid">
-       
-        <div class="row justify-content-between">
-            <div class="col-4">
-                <p>© 2016 Colmar Academy. All rights reserved</p>
-            </div>
-            <div class="col-4">
-                <div class="d-flex justify-content-end">
-                <p class="terms">Terms</p>
-                <p>Privacy</p>
+<body>
+    <!-- Nav Bar -->
+    <section id="header">
+        <div class="ca-navbar">
+            <div class="normal-navbar">
+                <div class="ca-logo">
+                    <img src="./capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg" />
+                    COLMARACADEMY
+                </div>
+                <div class="ca-menu">
+                    <ul class="ca-menubar">
+                        <li>
+                            <a href="#banner">On campus</a>
+                        </li>
+                        <li>
+                            <a href="#blog">Online</a>
+                        </li>
+                        <li>
+                            <a href="#category">Our companies</a>
+                        </li>
+                        <li>
+                            <a href="#thesis-exhibi">Sign in</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-          </div>
-        
-        
-        
-       
+            <div class="ca-menu-mobile">
+                <ul class="ca-icon">
+                    <li>
+                        <a href="#banner"><img
+                                src="./capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg" /></a>
+                    </li>
+                    <li>
+                        <a href="#blog"><img
+                                src="./capstone_colmar_assets/capstone_colmar_assets/images/ic-on-campus.svg" /></a>
+                    </li>
+                    <li>
+                        <a href="#category"><img
+                                src="./capstone_colmar_assets/capstone_colmar_assets/images/ic-online.svg" /></a>
+                    </li>
+                    <li>
+                        <a href="#thesis-exhibi"><img
+                                src="./capstone_colmar_assets/capstone_colmar_assets/images/ic-login.svg" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Banner -->
+    <section id="banner">
+        <div class="banner-container ">
+            <div class="banner-image">
+                <img src="./capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg" width="100%" />
+            </div>
+            <div class="banner-detail">
+                <h1>Learn something new everyday</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button>Start here</button>
+            </div>
+        </div>
+    </section>
+    <!-- Blog -->
+    <section id="blog">
+        <div class="blog-container">
+            <div class="main-blog">
+                <div class="img-blog">
+                    <img src="./capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg"
+                        width="100%" />
+                </div>
+                <div class="img-blog-detail">
+                    <div class="img-blog-text">
+                        <h3>It doesn't hurt to keep practice</h3>
+                    </div>
+                    <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat
+                        neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna lao, effictur dolor
+                        consequat, tristique ligula."</p>
+                    <p>Emanuel, Sr Strategist at Hiring.com</p>
+                </div>
+            </div>
+            <div class="blog-blog">
+                <div class="detail-blog">
+                    <div class="detail-blog-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/information-orientation.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="detail-blog-text">
+                        <h3>Orientation date</h3>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="detail-blog">
+                    <div class="detail-blog-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/information-campus.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="detail-blog-text">
+                        <h3>Our campus</h3>
+                        <p>Find which campus is close by you</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="detail-blog guest">
+                    <div class="detail-blog-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="detail-blog-text">
+                        <h3>Special guest lecture</h3>
+                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-mobile">
+            <div class="blog-mobile-card">
+                <img src="./capstone_colmar_assets/capstone_colmar_assets/images/information-orientation-mobile.jpg"
+                    width="100%" />
+                <div class="mobile-card-text">
+                    <h3>Orientation date</h3>
+                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="blog-mobile-card">
+                <img src="./capstone_colmar_assets/capstone_colmar_assets/images/information-campus-mobile.jpg" width="100%"/>                    
+                <div class="mobile-card-text">
+                    <h3>Our campus</h3>
+                    <p>Find which campus is close by you</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <div class="blog-mobile-card">
+                <img src="./capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture-mobile.jpg" width="100%"/>                    
+                <div class="mobile-card-text">
+                    <h3>Special guest lecture</h3>
+                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category -->
+    <section id="category">
+        <div class="category-container">
+            <div class="category-head">
+                <h2>Start Learning</h2>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-software.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="card-element">
+                        <h3>Software engineering</h3>
+                        <p>COURSES</p>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-computer-art.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="card-element">
+                        <h3>Computer art</h3>
+                        <p>COURSES</p>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-design.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="card-element">
+                        <h3>Design</h3>
+                        <p>COURSES</p>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-data.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="card-element">
+                        <h3>Data</h3>
+                        <p>COURSES</p>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-business.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="card-element">
+                        <h3>Business</h3>
+                        <p>COURSES</p>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-marketing.jpg"
+                            width="100%" />
+                    </div>
+                    <div class="card-element">
+                        <h3>Marketing</h3>
+                        <p>COURSES</p>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category-mobile">
+            <div class="category-head-mobile">
+                <h2>Start Learning</h2>
+            </div>
+            <div class="category-container-mobile">
+                
+                <div class="category-element-mobile">
+                    <button>Software engineering</button>
+                </div>
+                <div class="category-element-mobile">
+                    <button>Computer art</button>
+                </div>
+                <div class="category-element-mobile">
+                    <button>Design</button>
+                </div>
+                <div class="category-element-mobile">
+                    <button>Data</button>
+                </div>
+                <div class="category-element-mobile">
+                    <button>Business</button>
+                </div>
+                <div class="category-element-mobile">
+                    <button>Marketing</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thesis exhibit -->
+    <section id="thesis-exhibi">
+        <div class="thesis-exhibi-top">
+            <div class="thesis-exhibit-head">
+                <h1>Thesis exhibit</h1>
+            </div>
+            <div class="thesis-exhibi-vidio">
+                <div class="thesis-left">
+                    <video width="100%" controls="">
+                        <source src="./capstone_colmar_assets/capstone_colmar_assets/videos/thesis.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="thesis-right">
+                    <div class="thesis-right-card Fisma">
+                        <div class="thesis-right-card-img">
+                            <img src="./capstone_colmar_assets/capstone_colmar_assets/images/thesis-fisma.jpg"
+                                width="100%" />
+                        </div>
+                        <div class="thesis-right-card-element">
+                            <h3>Fisma: Design and Protype</h3>
+                            <p>Designer showcase of new prototype product</p>
+                        </div>
+                    </div>
+                    <div class="thesis-right-card">
+                        <div class="thesis-right-card-img">
+                            <img src="./capstone_colmar_assets/capstone_colmar_assets/images/thesis-now-and-then.jpg"
+                                width="100%" />
+                        </div>
+                        <div class="thesis-right-card-element">
+                            <h3>Now and then</h3>
+                            <p>Research study about New York</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thesis-exhibi-bottom">
+            <h3>Reimagine urban</h3>
+            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed
+                non
+                accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+                tristique
+                ligula."
+            </p>
+        </div>
+    </section>
+    <hr>
+    <!-- Footer -->
+    <footer class="foot">
+        <div class="foot-left">
+            &copy; 2016 Colmar Academy. All rights reserved
+        </div>
+        <div class="foot-right">
+            Terms Privacy
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
